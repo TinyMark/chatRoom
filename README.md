@@ -17,9 +17,9 @@ $ npm init -y
 ├─index.html
 ~~~
 
-3. 安装express 及 socket.io
+3. 安装express , socket.io 及 jquery
 ~~~
-$ npm i express socket.io -S
+$ npm i express socket.io jquery -S
 ~~~
 
 # 服务端
@@ -60,7 +60,7 @@ http.listen(3000, function () {
 ~~~
 
 # 客户端
-> 进入 /www/index.html
+> 进入 index.html
 
 代码如下:
 ~~~ html
@@ -201,4 +201,9 @@ http.listen(3000, function () {
 </body>
 
 </html>
+~~~
+
+# 运行
+~~~ 
+$ node server.js
 ~~~
