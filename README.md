@@ -207,3 +207,7 @@ http.listen(3000, function () {
 ~~~ 
 $ node server.js
 ~~~
+
+> 本地浏览器访问： http://127.0.0.1:3000
+
+> 127.0.0.1 替换成本机IP
